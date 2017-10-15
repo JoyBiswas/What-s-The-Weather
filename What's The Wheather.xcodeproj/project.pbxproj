@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEAAE6811F93A74000F56166 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAAE6801F93A74000F56166 /* AppDelegate.swift */; };
+		CEAAE6831F93A74000F56166 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAAE6821F93A74000F56166 /* ViewController.swift */; };
+		CEAAE6861F93A74000F56166 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAAE6841F93A74000F56166 /* Main.storyboard */; };
+		CEAAE6891F93A74000F56166 /* What_s_The_Wheather.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEAAE6871F93A74000F56166 /* What_s_The_Wheather.xcdatamodeld */; };
+		CEAAE68B1F93A74000F56166 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAAE68A1F93A74000F56166 /* Assets.xcassets */; };
+		CEAAE68E1F93A74000F56166 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAAE68C1F93A74000F56166 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEAAE67D1F93A74000F56166 /* What's The Wheather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "What's The Wheather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEAAE6801F93A74000F56166 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEAAE6821F93A74000F56166 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEAAE6851F93A74000F56166 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEAAE6881F93A74000F56166 /* What_s_The_Wheather.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = What_s_The_Wheather.xcdatamodel; sourceTree = "<group>"; };
+		CEAAE68A1F93A74000F56166 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEAAE68D1F93A74000F56166 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEAAE68F1F93A74000F56166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEAAE67A1F93A74000F56166 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEAAE6741F93A74000F56166 = {
+			isa = PBXGroup;
+			children = (
+				CEAAE67F1F93A74000F56166 /* What's The Wheather */,
+				CEAAE67E1F93A74000F56166 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEAAE67E1F93A74000F56166 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEAAE67D1F93A74000F56166 /* What's The Wheather.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEAAE67F1F93A74000F56166 /* What's The Wheather */ = {
+			isa = PBXGroup;
+			children = (
+				CEAAE6801F93A74000F56166 /* AppDelegate.swift */,
+				CEAAE6821F93A74000F56166 /* ViewController.swift */,
+				CEAAE6841F93A74000F56166 /* Main.storyboard */,
+				CEAAE68A1F93A74000F56166 /* Assets.xcassets */,
+				CEAAE68C1F93A74000F56166 /* LaunchScreen.storyboard */,
+				CEAAE68F1F93A74000F56166 /* Info.plist */,
+				CEAAE6871F93A74000F56166 /* What_s_The_Wheather.xcdatamodeld */,
+			);
+			path = "What's The Wheather";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEAAE67C1F93A74000F56166 /* What's The Wheather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEAAE6921F93A74000F56166 /* Build configuration list for PBXNativeTarget "What's The Wheather" */;
+			buildPhases = (
+				CEAAE6791F93A74000F56166 /* Sources */,
+				CEAAE67A1F93A74000F56166 /* Frameworks */,
+				CEAAE67B1F93A74000F56166 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "What's The Wheather";
+			productName = "What's The Wheather";
+			productReference = CEAAE67D1F93A74000F56166 /* What's The Wheather.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEAAE6751F93A74000F56166 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "MacBook Air";
+				TargetAttributes = {
+					CEAAE67C1F93A74000F56166 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CEAAE6781F93A74000F56166 /* Build configuration list for PBXProject "What's The Wheather" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEAAE6741F93A74000F56166;
+			productRefGroup = CEAAE67E1F93A74000F56166 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEAAE67C1F93A74000F56166 /* What's The Wheather */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEAAE67B1F93A74000F56166 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAAE68E1F93A74000F56166 /* LaunchScreen.storyboard in Resources */,
+				CEAAE68B1F93A74000F56166 /* Assets.xcassets in Resources */,
+				CEAAE6861F93A74000F56166 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEAAE6791F93A74000F56166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAAE6831F93A74000F56166 /* ViewController.swift in Sources */,
+				CEAAE6811F93A74000F56166 /* AppDelegate.swift in Sources */,
+				CEAAE6891F93A74000F56166 /* What_s_The_Wheather.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEAAE6841F93A74000F56166 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEAAE6851F93A74000F56166 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEAAE68C1F93A74000F56166 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEAAE68D1F93A74000F56166 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEAAE6901F93A74000F56166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEAAE6911F93A74000F56166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEAAE6931F93A74000F56166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "What's The Wheather/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "universal.What-s-The-Wheather";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CEAAE6941F93A74000F56166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "What's The Wheather/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "universal.What-s-The-Wheather";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEAAE6781F93A74000F56166 /* Build configuration list for PBXProject "What's The Wheather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEAAE6901F93A74000F56166 /* Debug */,
+				CEAAE6911F93A74000F56166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEAAE6921F93A74000F56166 /* Build configuration list for PBXNativeTarget "What's The Wheather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEAAE6931F93A74000F56166 /* Debug */,
+				CEAAE6941F93A74000F56166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CEAAE6871F93A74000F56166 /* What_s_The_Wheather.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CEAAE6881F93A74000F56166 /* What_s_The_Wheather.xcdatamodel */,
+			);
+			currentVersion = CEAAE6881F93A74000F56166 /* What_s_The_Wheather.xcdatamodel */;
+			path = What_s_The_Wheather.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CEAAE6751F93A74000F56166 /* Project object */;
+}
