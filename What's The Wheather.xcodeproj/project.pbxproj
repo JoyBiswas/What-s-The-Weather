@@ -13,6 +13,7 @@
 		CEAAE6891F93A74000F56166 /* What_s_The_Wheather.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEAAE6871F93A74000F56166 /* What_s_The_Wheather.xcdatamodeld */; };
 		CEAAE68B1F93A74000F56166 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAAE68A1F93A74000F56166 /* Assets.xcassets */; };
 		CEAAE68E1F93A74000F56166 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAAE68C1F93A74000F56166 /* LaunchScreen.storyboard */; };
+		CEAAE6961F93A75800F56166 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEAAE6951F93A75800F56166 /* background.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CEAAE68A1F93A74000F56166 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEAAE68D1F93A74000F56166 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEAAE68F1F93A74000F56166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEAAE6951F93A75800F56166 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				CEAAE6821F93A74000F56166 /* ViewController.swift */,
 				CEAAE6841F93A74000F56166 /* Main.storyboard */,
 				CEAAE68A1F93A74000F56166 /* Assets.xcassets */,
+				CEAAE6951F93A75800F56166 /* background.jpg */,
 				CEAAE68C1F93A74000F56166 /* LaunchScreen.storyboard */,
 				CEAAE68F1F93A74000F56166 /* Info.plist */,
 				CEAAE6871F93A74000F56166 /* What_s_The_Wheather.xcdatamodeld */,
@@ -127,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEAAE68E1F93A74000F56166 /* LaunchScreen.storyboard in Resources */,
+				CEAAE6961F93A75800F56166 /* background.jpg in Resources */,
 				CEAAE68B1F93A74000F56166 /* Assets.xcassets in Resources */,
 				CEAAE6861F93A74000F56166 /* Main.storyboard in Resources */,
 			);
